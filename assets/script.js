@@ -75,7 +75,7 @@ searchBtn.addEventListener("click", function (event) {
                 // Appending an icon to the first child for today's weather
                 var icon = data.list[0].weather[0].icon;
                 var image = document.createElement("img");
-                var image.src = "https://openweathermap.org/img/w/" + icon + ".png";
+                image.src = "https://openweathermap.org/img/w/" + icon + ".png";
                 today.children[0].appendChild(image);
 
                 // Iterating through a loop to update the 5-day forecast
