@@ -85,6 +85,7 @@ searchBtn.addEventListener("click", function (event) {
                     card.children[1].textContent = "Tempurature: " + data.list[(i * 8) - 1].main.temp + "\u00B0F";
                     card.children[2].textContent = "Wind: " + data.list[(i * 8) - 1].wind.speed + " MPH";
                     card.children[3].textContent = "Humidity: " + data.list[(i * 8) - 1].main.humidity + " %";
+                    
                     var icon = data.list[(i * 8) - 1].weather[0].icon;
                     var image = document.createElement("img");
                     image.src = "https://openweathermap.org/img/w/" + icon + ".png";
@@ -135,6 +136,7 @@ cityButton.addEventListener("click", function (event) {
                     card.children[1].textContent = "Tempurature: " + data.list[(i * 8) - 1].main.temp + "\u00B0F";
                     card.children[2].textContent = "Wind: " + data.list[(i * 8) - 1].wind.speed + " MPH";
                     card.children[3].textContent = "Humidity: " + data.list[(i * 8) - 1].main.humidity + " %";
+
                     var icon = data.list[(i * 8) - 1].weather[0].icon;
                     var image = document.createElement("img");
                     image.src = "https://openweathermap.org/img/w/" + icon + ".png";

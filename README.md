@@ -14,7 +14,7 @@
 
 Making a weather-forecast app using Openweather API and Javascript!
 
-Deployed Site []()
+Deployed Site [https://blackswan1010.github.io/weather-forecast/](https://blackswan1010.github.io/weather-forecast/)
 
 ## API
 ```js
